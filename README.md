@@ -33,8 +33,6 @@ Mostly a playground for exploring how conventional third person gameplay mechani
 	* Airplanes
 	* Helicopters
 
-All planned features can be found in the [GitHub Projects](https://github.com/swift502/Sketchbook/projects).
-
 ## Usage
 
 You can define your own scenes in Blender, and then read them with Sketchbook. Sketchbook needs to run on a local server such as [http-server](https://www.npmjs.com/package/http-server) or [webpack-dev-server](https://github.com/webpack/webpack-dev-server) to be able to load external assets.
@@ -86,10 +84,3 @@ const world = new World('scene.glb');
 5. Make changes and test them out at http://localhost:8080
 6. Commit and [make a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)!
 
-## Credits
-
-Big thank you to each of the following github users for contributing to Sketchbook:
-
-- [aleqsunder](https://github.com/aleqsunder)
-- [barhatsor](https://github.com/barhatsor)
-- [danshuri](https://github.com/danshuri)
